@@ -1,0 +1,30 @@
+{
+  "name": "crud-project-coursera",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "coursera project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "build": "rimraf ./build && tsc",
+    "start": "node src/app.js"
+  },
+  "author": "Daniel Simeon Sedeq Saunders",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.0.4",
+    "prom-client": "^15.1.0",
+    "response-time": "^2.3.2",
+    "rimraf": "^5.0.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
